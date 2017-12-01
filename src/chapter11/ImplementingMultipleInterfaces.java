@@ -1,5 +1,5 @@
 package chapter11;
-/* J11_21.java	*/
+/* ImplementingMultipleInterfaces.java	*/
 /* Implementing Multiple Interfaces */
 
 /**

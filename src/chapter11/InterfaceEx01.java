@@ -1,5 +1,5 @@
 package chapter11;
-/* J11_17.java	*/
+/* InterfaceEx01.java	*/
 /* Implementing Interface*/
 
 interface Mammall{
@@ -32,7 +32,7 @@ class Birds implements Mammall{
 	}
 
 	public void fly(){
-		System.out.println("Bird can fly");
+		System.out.println("Birds can fly");
 	}
 
 	@Override
@@ -45,7 +45,7 @@ public class InterfaceEx01{
 
 	public static void main(String args[]){
 		Humann h1 = new Humann();   // Humann reference and Humann object
-		// Here h0 is a Humann object that references to a Humann type
+		// Here h1 is a Humann object that references to a Humann type
 
 		Birds b1 = new Birds(); // Birds reference and Birds object
 		// Here b1 is a Birds object that references to a Birds type

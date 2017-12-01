@@ -1,5 +1,5 @@
 package chapter11;
-/* J11_14.java */
+/* AbstractClassEx01.java */
 /* Inheriting Abstract Base class/ Abstract Member */
 abstract class Mammal{
   abstract  public void move();
@@ -33,7 +33,7 @@ class Bird extends Mammal{
       System.out.println("Birds can walk, fly, and run");
    }
 	public void fly(){
-      System.out.println("Bird can fly");
+      System.out.println("Birds can fly");
    }
 
 	  @Override

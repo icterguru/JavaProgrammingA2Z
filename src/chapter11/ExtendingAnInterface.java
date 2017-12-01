@@ -1,5 +1,5 @@
 package chapter11;
-/* J11_21.java	*/
+/* ExtendingAnInterface.java	*/
 /* Extending Multiple Interfaces */
 
 
