@@ -1,10 +1,16 @@
 package chapter11;
 /* J11_01.java */
 /* Inheriting friendly (default) public members	*/
+
+/*
 class Student{   // Base class
   int  Roll;  			// friendly by default
   String Name= new String();  // friendly by default
   }  
+*/
+
+//import Student;
+
 class Result extends Student  {
   float Mark;  	
   void setData() {

@@ -1,7 +1,8 @@
 package chapter11;
 /* AbstractClassEx01.java */
 /* Inheriting Abstract Base class/ Abstract Member */
-abstract class Mammal{
+
+abstract class Mammal extends Object{
   abstract  public void move();
   public void nonAbstractMethod()
   {

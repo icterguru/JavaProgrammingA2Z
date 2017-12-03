@@ -4,6 +4,7 @@ package chapter00;
 /* 2. */ /* A Sample Java Application Program */
 
 /* 3. */ class HelloWorld {
+/* 3. */ public class HelloWorld {
 
 /* 5. */ public static void main(String args[])
 /* 6. */ {			
