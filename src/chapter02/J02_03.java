@@ -2,10 +2,10 @@ package chapter02;
 /* J02_03.java   */
 /* A Command Line Argumented Program */
 
-class J02_03{
+public class J02_03{
 
-public static void main (String  args[])
- {
+public static void main (String[] args )
+ {	
  int i, c;
  String S;
  c = args.length;
