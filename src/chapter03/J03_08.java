@@ -10,7 +10,7 @@ public class J03_08 {
 	Mul = Value1 * Value2; //Illegal Assignment
 	System.out.println("Value1: " +Value1);
 	System.out.println("Value2: " +Value2);
-	System.out.println("Mul   : " +Mul);
+	System.out.println("Mul: " +Mul);
 	
 	
 	}

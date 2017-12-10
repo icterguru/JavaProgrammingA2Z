@@ -14,6 +14,16 @@ package chapter00;
 /* 9. */  System.out.print("\nThis is my First Java Program");
 /* 9. */  System.out.print("\nThis is my First Java Program");
 
+/* 9. */  System.out.print("\nThis is my First Java Program");
+/* 9. */  System.out.print("\nThis is my First Java Program");
+/* 9. */  System.out.print("\nThis is my First Java Program");
+/* 9. */  System.out.print("\nThis is my First Java Program");
+/* 9. */  System.out.print("\nThis is my First Java Program");
+/* 9. */  System.out.print("\nThis is my First Java Program");
+/* 9. */  System.out.print("\nThis is my First Java Program");
+/* 9. */  System.out.print("\nThis is my First Java Program");
+/* 9. */  System.out.print("\nThis is my First Java Program");
+
 
 /* 10.*/ }  // End of main()
 
