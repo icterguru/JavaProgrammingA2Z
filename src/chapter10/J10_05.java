@@ -6,6 +6,7 @@ class Student10_05 {
   int  Roll;	
   String Name;
   float Mark;	
+  
   Student10_05(int R, String N, float M)  // Argumented Constructor
    {
    Roll = R;
@@ -19,7 +20,9 @@ class Student10_05 {
 
  public class J10_05{
 public static void main(String args[]) {
-	Student10_05 S = new Student10_05(101, "Masud",  85f);	
+	Student10_05 S = new Student10_05(101, "Masud Karim",  85.50f);
+	System.out.println();
+	Student10_05 S1 = new Student10_05(102, "Karim",  95.50f);
 // Creating object and Calling Constructor Method
 // S.display();
  }

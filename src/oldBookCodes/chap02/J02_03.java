@@ -1,4 +1,4 @@
-package JavaBook1Codes;
+package oldBookCodes.chap02;
 /* J02_03.java   */
 /* A Command Line Argumented Program */
 

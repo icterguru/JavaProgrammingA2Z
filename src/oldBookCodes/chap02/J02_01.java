@@ -1,4 +1,4 @@
-package JavaBook1Codes;
+package oldBookCodes.chap02;
 
 /* 1. */ /* J02_01.java */
 /* 2. */ /* A Sample Java Application Program */

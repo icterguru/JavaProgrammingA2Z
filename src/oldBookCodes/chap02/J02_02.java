@@ -1,4 +1,4 @@
-package JavaBook1Codes;
+package oldBookCodes.chap02;
 
 public class J02_02 {
 
