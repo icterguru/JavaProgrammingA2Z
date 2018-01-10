@@ -1,7 +1,27 @@
 package abcPackage;
 
-
 public class Student {
+	public int  Roll;
+	protected String Name;
+	private float Mark;
+
+	void setData(int Roll, String Name, float Mark) {
+		this.Roll = Roll ;
+		this.Name = Name;
+		this.Mark = Mark ;
+		
+	}
+
+	void display(){
+		System.out.println("Roll : " + this.Roll );
+		System.out.println("Name : " + this.Name);
+		System.out.println("Mark : " + this.Mark) ;	
+		}
+}
+
+
+/*
+class Student {
 	int  Roll; 
 	String Name;  
 	float Mark;
@@ -34,3 +54,4 @@ public class Student {
 		System.out.println("Mark is : " +Mark);
 	}
 }
+*/
