@@ -1,16 +1,13 @@
 package chapter00;
 
-/* 1. */ /* HelloWorld.java */
-/* 2. */ /* A Sample Java Application Program */
+public class HelloWorld {
 
-/* 3. */ class HelloWorld {
-/* 3. */ public class HelloWorld {
+	public static void main(String args[])
+	{			
+		System.out.println("Hello World!"); 
+		System.out.print("Welcome to Java Programming");
+		System.out.print("\nThis is my First Java Program");
+		
+	}  // End of main() method
 
-/* 5. */ public static void main(String args[])
-/* 6. */ {			
-/* 7. */ System.out.println("Hello World!");
-/* 8. */ System.out.print("Welcome to Java Programming");
-/* 9. */  System.out.print("\nThis is my First Java Program");
-/* 10.*/ }  // End of main()
-
-/* 11.*/}  // End of class  
+}  // End of the HelloWorld class  
