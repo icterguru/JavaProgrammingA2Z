@@ -1,6 +1,6 @@
 package abcPackage;
 
-public class Student {
+/*public class Student {
 	public int  Roll;
 	protected String Name;
 	private float Mark;
@@ -19,9 +19,9 @@ public class Student {
 		}
 }
 
+*/
 
-/*
-class Student {
+public class Student {
 	int  Roll; 
 	String Name;  
 	float Mark;
@@ -48,10 +48,17 @@ class Student {
 	   Mark = S.Mark;
 	  }   	// Copy Constructor Defined
 
-	void display(){
-		System.out.println("Roll is : " +Roll);                 
-		System.out.println("Name is : " +Name);
-		System.out.println("Mark is : " +Mark);
+
+		void setData(int Roll, String Name, float Mark) {
+		this.Roll = Roll ;
+		this.Name = Name;
+		this.Mark = Mark ;
+		
 	}
+
+	void display(){
+		System.out.println("Roll : " + this.Roll );
+		System.out.println("Name : " + this.Name);
+		System.out.println("Mark : " + this.Mark) ;	
+		}
 }
-*/
