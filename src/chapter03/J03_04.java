@@ -9,7 +9,7 @@ public class J03_04 {
 	// Should not be char Ch = 'AB'	
 	
 	
-	System.out.println("Ch is " +Ch);
+	System.out.println("Ch is: " +Ch);
 	
 	}
 
