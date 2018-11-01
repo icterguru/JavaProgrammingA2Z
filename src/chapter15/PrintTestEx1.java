@@ -11,7 +11,8 @@ public class PrintTestEx1{
 		FileInputStream psStream = null;
 
 		try {
-			psStream = new FileInputStream("test.pdf");
+			psStream = new FileInputStream("test.pdf");  
+			// The file test.pdf needs to be in the project's root directory  
 		} catch (FileNotFoundException ffne) {
 			ffne.printStackTrace();
 		}
@@ -40,6 +41,7 @@ public class PrintTestEx1{
 			DocPrintJob job = myPrinter.createPrintJob();
 			try {
 				job.print(myDoc, aset);
+				System.out.println("Printg the job.... " );
 
 			}
 			catch (Exception pe) {pe.printStackTrace();}
