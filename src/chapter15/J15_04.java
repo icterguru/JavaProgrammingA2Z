@@ -6,10 +6,10 @@ import java.io.*;
 {  
  public static void main(String[] args) throws IOException
    {  
-   FileWriter fws = new FileWriter("C:\\test.txt");
-   System.out.println("A file named c:\\test.txt is opened for you: ");
+   FileWriter fws = new FileWriter("./test.txt");
+   System.out.println("A file named test.txt is opened for you: ");
    System.out.println("Write something and Press ENTER to Save:");
-   FileOutputStream fos = new FileOutputStream("C:\\test.txt");
+   FileOutputStream fos = new FileOutputStream("./test.txt");
    char c = (char)System.in.read();  // Reading  a Character
    while(c != '\n')   // While not pressed ENTER
     {

@@ -11,7 +11,7 @@ public class PrintTestEx1{
 		FileInputStream psStream = null;
 
 		try {
-			psStream = new FileInputStream("test.pdf");
+			psStream = new FileInputStream("./test.pdf");
 		} catch (FileNotFoundException ffne) {
 			ffne.printStackTrace();
 		}

@@ -5,10 +5,10 @@ import java.io.*;
 
  public class J15_07{  
  public static void main(String[] args) throws IOException  {  
-   FileWriter fws = new FileWriter("C:\\myfile.txt");
-   System.out.println("The file named c:\\ myfile.txt is opened: ");
+   FileWriter fws = new FileWriter("./myfile.txt");
+   System.out.println("The file named myfile.txt is opened: ");
    System.out.println("Write data and Press ENTER to display:");
-   FileOutputStream fos = new FileOutputStream("C:\\myfile.txt");
+   FileOutputStream fos = new FileOutputStream("./myfile.txt");
    char c = (char)System.in.read();  // Reading  a Character
 
    while(c != '\n')   // While not pressed ENTER

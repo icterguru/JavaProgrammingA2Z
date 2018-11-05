@@ -6,8 +6,8 @@ import java.io.*;
 {  
  public static void main(String[] args) throws IOException
    {  
-   FileReader frs = new FileReader("c:\\test.txt");
-   System.out.println("The File C:\\test.txt Contains: ");
+   FileReader frs = new FileReader("./test.txt");
+   System.out.println("The File ./test.txt Contains: ");
    BufferedReader br = new BufferedReader(frs);
    String S; 
 
