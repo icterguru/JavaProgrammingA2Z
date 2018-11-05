@@ -3,17 +3,17 @@ package chapter15;
 /* Writing and Reading Objects in Data File  */
 import java.io.*;
 import java.util.*;
-class Student{  
+class Person{  
    int    Roll;
    String Name;
    double Mark;
 
-   public Student( int R, String N, double M) {  
+   public Person( int R, String N, double M) {  
      Roll = R;
      Name = N;
      Mark = M;
    }
-public Student() // Empty Constructor
+public Person() // Empty Constructor
     {
     }
   public void WriteData(PrintWriter PR) throws IOException
@@ -52,18 +52,18 @@ static Student[] ReadData(BufferedReader BR) throws IOException
       int i;
       for (i = 0; i < n; i++)
       {  
-     	 S[i] = new Student();
+     	 S[i] = new Person();
        S[i].ReadData(BR);
       }
       return S;
    }
 public static void main(String[] args)
    {  
-   	Student Std[] = new Student[4];
-      Std[0] = new Student(101, "Mira   ", 70.5);
-      Std[1] = new Student(102, "Masud  ", 75.5);
-      Std[2] = new Student(103, "Monira ", 85.5);
-      Std[3] = new Student(104, "Monirul", 80.5);
+	Person Std[] = new Person[4];
+      Std[0] = new Person(101, "Mira   ", 70.5);
+      Std[1] = new Person(102, "Masud  ", 75.5);
+      Std[2] = new Person(103, "Monira ", 85.5);
+      Std[3] = new Person(104, "Monirul", 80.5);
       int i;
       try{  
      PrintWriter PR = new PrintWriter(new 

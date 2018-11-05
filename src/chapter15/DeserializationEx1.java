@@ -14,11 +14,11 @@ class Student implements Serializable{
 
 public class DeserializationEx1{
 	public static void main(String args[])throws Exception{
-		ObjectInputStream in=new ObjectInputStream(new FileInputStream("c:\\Test.txt "));
+		ObjectInputStream in=new ObjectInputStream(new FileInputStream("C:\\Users\\mhossa12\\workspace\\Test.txt"));
 	Student s=(Student)in.readObject();
 	System.out.println(s.id+" "+s.name+" "+s.age);
 	in.close();
-System.out.println("Object stored in the file c:\\Test.txt  successfully");
+System.out.println("Object stored in the file C:\\Users\\mhossa12\\workspace\\Test.txt  successfully");
 	}
 }
 
