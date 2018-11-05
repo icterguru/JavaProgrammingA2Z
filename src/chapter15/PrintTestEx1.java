@@ -11,12 +11,7 @@ public class PrintTestEx1{
 		FileInputStream psStream = null;
 
 		try {
-<<<<<<< HEAD
 			psStream = new FileInputStream("./test.pdf");
-=======
-			psStream = new FileInputStream("test.pdf");  
-			// The file test.pdf needs to be in the project's root directory  
->>>>>>> df552a45b86a266f4fbb38830bc07d706e1abaaf
 		} catch (FileNotFoundException ffne) {
 			ffne.printStackTrace();
 		}
