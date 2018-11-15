@@ -5,8 +5,7 @@ import java.io.*; // Required for FileWriter Class
 public class J15_02{  
  public static void main(String[] args){  
     try{  
-FileWriter fw = new FileWriter("C:\\test.txt");
-//FileWriter fw = new FileWriter("C:\\Users\\mhossa12\\Documents\\test2.doc");
+FileWriter fw = new FileWriter("./test.txt");
       fw.close();
       }
       catch(IOException e)

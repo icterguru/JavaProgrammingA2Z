@@ -11,9 +11,13 @@ public class PrintTestEx1{
 		FileInputStream psStream = null;
 
 		try {
+<<<<<<< HEAD
 			psStream = new FileInputStream("test.pdf");  
 			// The file test.pdf needs to be in the project's root directory  
 			System.out.println("Printg the job.... " );
+=======
+			psStream = new FileInputStream("./test.pdf");
+>>>>>>> 8cc5ab5ea074094de51f6fc81d5c117d9dc98120
 		} catch (FileNotFoundException ffne) {
 			ffne.printStackTrace();
 		}

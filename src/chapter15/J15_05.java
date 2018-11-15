@@ -8,11 +8,11 @@ import java.io.*;
  public static void main(String[] args) throws IOException
    {  
    boolean FMode = true;  // Append Mode true
-   FileWriter fws = new FileWriter("C:\\test.txt", FMode);
+   FileWriter fws = new FileWriter("./test.txt", FMode);
  
-   System.out.println("The file named c:\\test.txt is opened: ");
+   System.out.println("The file named test.txt is opened: ");
    System.out.println("Write something and Press ENTER to Add:");
-   FileOutputStream fos = new FileOutputStream("C:\\test.txt", FMode);
+   FileOutputStream fos = new FileOutputStream("./test.txt", FMode);
 
    char c = (char)System.in.read();  // Reading  a Character
    while(c != '\n')   // While not pressed ENTER

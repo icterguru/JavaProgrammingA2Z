@@ -6,7 +6,7 @@ import java.io.*;
 {
 public static void main(String args[]) throws IOException
  {
-  RandomAccessFile rf = new RandomAccessFile("c:\\randfile.txt", "rw");
+  RandomAccessFile rf = new RandomAccessFile("./randfile.txt", "rw");
   rf.writeInt(101);
   rf.writeDouble(75.50);
   rf.writeChar('A');

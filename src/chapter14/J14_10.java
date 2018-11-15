@@ -2,7 +2,7 @@ package chapter14;
 /*  J14_10.java   */
 /*  Using throw Statement  */
  public class J14_10 {
-static void Demo() {
+static void Demo(){
  try {
    throw new NullPointerException("Demo");
    // No other Statement Allowed here

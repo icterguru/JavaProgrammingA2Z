@@ -1,10 +1,7 @@
 package chapter06;
 
-
 public class J06_13 {
-
 	public static void main(String[] args) { 
-
 		double Mark[][] = new double[3][3];
 		Mark[0][0] = 64.5;
 		Mark[0][1] = 75;
@@ -20,7 +17,6 @@ public class J06_13 {
 		System.out.println("Elements of the Matrix is:");
 		
 		int L = Mark.length;
-		
 		for( int i=0; i<L; i++)
 		{
 			for(int j=0; j<L; j++){
